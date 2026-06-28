@@ -23,7 +23,7 @@ st.image("logo.jpg")
 # =============================
 # TIÊU ĐỀ
 # =============================
-st.title("📈 TRỰC QUAN HÓA GIÁ CỔ PHIẾU VÀ KIỂM ĐỊNH MANN-KENDALL")
+st.title("📈 TRỰC QUAN HÓA GIÁ CỔ PHIẾU VÀ KIỂM ĐỊNH MANN-KENDALL - đề tài 6 - ĐẶNG THỊ NGỌC HÂN")
 st.subheader("TS. VŨ ĐỨC BÌNH")
 
 st.markdown("---")
