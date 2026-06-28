@@ -1,3 +1,4 @@
+
 import streamlit as st
 import yfinance as yf
 import pandas as pd
@@ -13,7 +14,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📈 KIỂM ĐỊNH XU HƯỚNG GIÁ CỔ PHIẾU BẰNG MANN-KENDALL")
+st.title("📈 KIỂM ĐỊNH XU HƯỚNG GIÁ CỔ PHIẾU BẰNG MANN-KENDALL - đề tài 6 - DANG THI NGOC HAN")
 
 st.write(
     """
@@ -116,8 +117,7 @@ if st.button("Thực hiện kiểm định"):
                 )
 
             elif result.trend == "decreasing":
-                st.success(
-                  "Có xu hướng giảm có ý nghĩa thống kê (p < 0.05)."
+                st.success("Có xu hướng giảm có ý nghĩa thống kê (p < 0.05)."
                 )
 
             else:
